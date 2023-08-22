@@ -12,7 +12,7 @@ node(){
     }
     stage('Build') {
         nodejs('nodejs') {
-            sh 'npm run build'
+            bat 'npm run build'
             echo "Build completed"
         }
         
