@@ -12,7 +12,7 @@ node(){
     }
     stage('Build') {
         nodejs('nodejs') {
-            bat 'npm run build'
+            bat 'ng build'
             echo "Build completed"
         }
         
